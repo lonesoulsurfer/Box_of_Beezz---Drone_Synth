@@ -1,7 +1,7 @@
 <img width="1024" height="680" alt="image" src="https://github.com/user-attachments/assets/e67e8a4f-6b84-4075-bac1-379a7c029af4" />
 
 
-Youtube Vid - 
+Youtube Vid - https://youtu.be/9Q7pgyfTjew
 
 Instructables - https://www.instructables.com/Box-of-Beezz-Drone-Synth/
 
