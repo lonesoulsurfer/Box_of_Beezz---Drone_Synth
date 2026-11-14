@@ -20,11 +20,10 @@ Box of Beezz is a drone synth with 9 transistor oscillators. Each oscillator has
 ## What you need
 
 - All parts are in the parts list (`Drone Synth - Parts List.xlsx`).
-- The Gerber files for the version 1 PCB are in `Drone Synth V1 - gerber files.zip`. You can send them to a PCB maker.
-
-> **Note:** These design files are not in this repository yet:
-> - Version 2 design files
-> - Front panel design
+- There are two versions of the PCB:
+  - Version 1: the Gerber files are in `Drone Synth V1 - gerber files.zip`. The Eagle files and the schematic are in `Box of Beezz - Drone Synth V1/`.
+  - Version 2: the Gerber files, the Eagle files and the schematic are in `Box of Beezz - Drone Synth V2/`.
+- There are two front panel designs, with and without a speaker. They are in `Front Panel/`.
 
 ## Build it
 
@@ -40,6 +39,9 @@ The Instructables guide shows each step, with photos. In short:
 | Folder or file | Contents |
 |----------------|----------|
 | `Drone Synth V1 - gerber files.zip` | Gerber files for the version 1 PCB, ready to order |
+| `Box of Beezz - Drone Synth V1/` | Eagle files and schematic for version 1 |
+| `Box of Beezz - Drone Synth V2/` | Gerber files, Eagle files and schematic for version 2 |
+| `Front Panel/` | Front panel designs, with and without a speaker (SVG and PDF) |
 | `Drone Synth - Parts List.xlsx` | Parts list |
 
 ## Credits
