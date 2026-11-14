@@ -7,7 +7,7 @@ Box of Beezz is a drone synth with 9 transistor oscillators. Each oscillator has
 ## Build guide and video
 
 - Step-by-step build guide on Instructables: [Box of Beezz Drone Synth](https://www.instructables.com/Box-of-Beezz-Drone-Synth/)
-- Video on YouTube: [Box of Beezz](https://youtu.be/9Q7pgyfTjew)
+- Video on YouTube: [Box of Beezz](https://www.youtube.com/watch?v=Lz0C1BahfkU)
 
 ## How it works
 
