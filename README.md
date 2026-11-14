@@ -1,27 +1,58 @@
-<img width="1024" height="680" alt="image" src="https://github.com/user-attachments/assets/e67e8a4f-6b84-4075-bac1-379a7c029af4" />
+# Box of Beezz: drone synth
 
+Box of Beezz is a drone synth with 9 transistor oscillators. Each oscillator has an LED that flashes with its signal.
 
-Youtube Vid - https://youtu.be/9Q7pgyfTjew
+<img width="1024" height="680" alt="Box of Beezz" src="https://github.com/user-attachments/assets/e67e8a4f-6b84-4075-bac1-379a7c029af4" />
 
-Instructables - https://www.instructables.com/Box-of-Beezz-Drone-Synth/
+## Build guide and video
 
-This is my 'Box of Beezz' drone synth using transistors as simple oscillators!
+- Step-by-step build guide on Instructables: [Box of Beezz Drone Synth](https://www.instructables.com/Box-of-Beezz-Drone-Synth/)
+- Video on YouTube: [Box of Beezz](https://youtu.be/9Q7pgyfTjew)
 
+## How it works
 
-This build uses what is known as a relaxation oscillator. A relaxation oscillator is an oscillator that repeats itself over and over again from the charging of a capacitor to some event threshold and then the discharging of the capacitor. So basically the repetitive charging up of the capacitor and discharging of the capacitor creates oscillations via a transistor.
+- Each oscillator is a relaxation oscillator. A capacitor charges to a threshold, then a transistor discharges it. This repeats, and makes a sawtooth wave.
+- Different capacitor values give different frequencies.
+- 9 oscillators together make a rich drone sound.
+- A master tone knob changes the sound.
+- A control voltage (CV) output lets you connect the synth to a sequencer.
 
+## What you need
 
-There are 9 in total built into the circuit and by using different capacitor values you can get different oscillations. The recharge and discharge time of the capacitor determines the time period and frequency of the oscillations
+- All parts are in the parts list (`Drone Synth - Parts List.xlsx`).
+- The Gerber files for the version 1 PCB are in `Drone Synth V1 - gerber files.zip`. You can send them to a PCB maker.
 
+> **Note:** These design files are not in this repository yet:
+> - Version 2 design files
+> - Front panel design
 
-The LED connected to each oscillator acts as an output and these flicker on and off depending on the output signal. Plus, every project needs LED's!
+## Build it
 
+The Instructables guide shows each step, with photos. In short:
 
-Sawtooth oscillations are produced and they actually sound great. When you add 9 of them in total then you really get some interesting sounds generated.
+1. Send the Gerber files to a PCB maker.
+2. Get the parts in the parts list.
+3. Solder the parts to the PCB.
+4. Connect the power and test the circuit.
 
+## Files in this repository
 
-There is also a master tone knob and I've included a control voltage output so you can hock the drone synth up to a sequencer.
+| Folder or file | Contents |
+|----------------|----------|
+| `Drone Synth V1 - gerber files.zip` | Gerber files for the version 1 PCB, ready to order |
+| `Drone Synth - Parts List.xlsx` | Parts list |
 
+## Credits
 
-The project was inspired by 'Look Mum No Computers' super simple oscillator build which I have linked here - https://www.lookmumnocomputer.com/projects#/circledroneofdoom
+- Based on the simple oscillator in the [Circle Drone of Doom](https://www.lookmumnocomputer.com/projects#/circledroneofdoom) by Look Mum No Computer.
+- PCB and build: Marcus ([lonesoulsurfer](https://github.com/lonesoulsurfer)).
 
+## Support
+
+Do you like this project? You can support my work on [GitHub Sponsors](https://github.com/sponsors/lonesoulsurfer).
+
+## Licence
+
+This project uses the [CERN Open Hardware Licence v2, Strongly Reciprocal](LICENSE) (CERN-OHL-S-2.0). Copyright (c) 2025 Marcus (lonesoulsurfer).
+
+You can make, change and sell boards from these files. If you share or sell a changed design, you must also share the changed design files under the same licence.
